@@ -72,9 +72,13 @@ export function SiteLayout() {
           </div>
           <div>
             <div className="eyebrow mb-3">Studio</div>
+            <p className="text-foreground/80">Sibasa, Thohoyandou 0970</p>
             <p className="text-foreground/80">Limpopo, South Africa</p>
-            <a href="mailto:hello@nthumeni.studio" className="text-foreground/80 hover:text-accent block mt-1">
-              hello@nthumeni.studio
+            <a href="tel:+27837505726" className="text-foreground/80 hover:text-accent block mt-2">
+              083 750 5726
+            </a>
+            <a href="mailto:info@nthumeniarchi.co.za" className="text-foreground/80 hover:text-accent block">
+              info@nthumeniarchi.co.za
             </a>
           </div>
           <div>
@@ -83,9 +87,17 @@ export function SiteLayout() {
               href="https://www.instagram.com/nthumeni.architecture"
               target="_blank"
               rel="noreferrer"
-              className="hover:text-accent"
+              className="hover:text-accent block"
             >
               @nthumeni.architecture
+            </a>
+            <a
+              href={`https://wa.me/27837505726?text=${encodeURIComponent("Hello Nthumeni Architecture, I'd like to enquire about a project.")}`}
+              target="_blank"
+              rel="noreferrer"
+              className="hover:text-accent block mt-1"
+            >
+              WhatsApp +27 83 750 5726
             </a>
           </div>
         </div>
